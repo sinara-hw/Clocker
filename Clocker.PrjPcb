@@ -131,7 +131,27 @@ VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for Clocker\Panel\ExportIDF\Panel_Clocker.brd
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Clocker\Panel\AutoCAD PCB\Panel_Clocker.DXF
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Clocker\Panel\ExportSTEP\Panel_Clocker.step
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=C:\Users\gkasp\AppData\Local\Temp\Pro3A5.xls
+DItemRevisionGUID=
+
+[GeneratedDocument5]
 DocumentPath=C:\Users\gkasp\AppData\Local\Temp\Pro2087.xls
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=C:\Users\gkasp\AppData\Local\Temp\Pro6515.xls
 DItemRevisionGUID=
 
 [Configuration1]
