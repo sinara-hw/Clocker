@@ -1,4 +1,4 @@
-[Design]
+﻿[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -23,15 +23,26 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
+AutoSheetNumbering=0
+AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for Clocker
+IsProjectConflictPreventionWarningsEnabled=1
+IsVirtualBomDocumentRemoved=0
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -122,6 +133,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HEURBVPN
 
+[Document6]
+DocumentPath=Schlib1.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WGUDXETI
+
 [ProjectVariant1]
 UniqueID=2E5F090B-8EF9-4E2B-838E-437A85FBD8AF
 Description=Std
@@ -129,30 +157,6 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Clocker\Panel\ExportIDF\Panel_Clocker.brd
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Clocker\Panel\AutoCAD PCB\Panel_Clocker.DXF
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Clocker\Panel\ExportSTEP\Panel_Clocker.step
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=C:\Users\gkasp\AppData\Local\Temp\Pro3A5.xls
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=C:\Users\gkasp\AppData\Local\Temp\Pro2087.xls
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=C:\Users\gkasp\AppData\Local\Temp\Pro6515.xls
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -165,12 +169,12 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=Project Outputs for Clocker
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series
+TargetPrinter=DeskJet_3630_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -212,72 +216,82 @@ OutputName8=Orcad/PCB2 Netlist
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=PADSNetlist
-OutputName9=PADS ASCII Netlist
+OutputType9=Pcad
+OutputName9=Pcad for PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Pcad
-OutputName10=Pcad for PCB
+OutputType10=PCADNetlist
+OutputName10=PCAD Netlist
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=PCADNetlist
-OutputName11=PCAD Netlist
+OutputType11=PCADnltNetlist
+OutputName11=PCADnlt Netlist
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=PCADnltNetlist
-OutputName12=PCADnlt Netlist
+OutputType12=Protel2Netlist
+OutputName12=Protel2 Netlist
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Protel2Netlist
-OutputName13=Protel2 Netlist
+OutputType13=ProtelNetlist
+OutputName13=Protel
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=ProtelNetlist
-OutputName14=Protel
+OutputType14=RacalNetlist
+OutputName14=Racal Netlist
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=RacalNetlist
-OutputName15=Racal Netlist
+OutputType15=RINFNetlist
+OutputName15=RINF Netlist
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-OutputType16=RINFNetlist
-OutputName16=RINF Netlist
+OutputType16=SciCardsNetlist
+OutputName16=SciCards Netlist
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-OutputType17=SciCardsNetlist
-OutputName17=SciCards Netlist
+OutputType17=TangoNetlist
+OutputName17=Tango Netlist
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=TangoNetlist
-OutputName18=Tango Netlist
+OutputType18=TelesisNetlist
+OutputName18=Telesis Netlist
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-OutputType19=TelesisNetlist
-OutputName19=Telesis Netlist
+OutputType19=WireListNetlist
+OutputName19=WireList Netlist
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=WireListNetlist
-OutputName20=WireList Netlist
+OutputType20=XSpiceNetlist
+OutputName20=Mixed Sim Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=PADSNetlist
+OutputName21=PADS ASCII Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series
+TargetPrinter=DeskJet_3630_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -287,7 +301,7 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType2=PCB 3D Print
@@ -305,7 +319,7 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType4=PCB Print
 OutputName4=PCB Prints
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType5=PCBDrawing
@@ -317,7 +331,7 @@ PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType6=PCBLIB Print
 OutputName6=PCBLIB Prints
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType7=PDF3D
@@ -344,17 +358,41 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=PDF3D MBA
-OutputName11=PDF3D MBA
+OutputType11=Harness Layout Drawing Print
+OutputName11=Harness Layout Drawing Prints
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Harness Wiring Diagram Print
+OutputName12=Harness Wiring Diagram Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=PCBDrawing
+OutputName13=Draftsman
+OutputDocumentPath13=
+OutputVariantName13=[No Variations]
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=PDF3D MBA
+OutputName15=PDF3D MBA
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series
+TargetPrinter=DeskJet_3630_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -376,7 +414,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series
+TargetPrinter=DeskJet_3630_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -387,13 +425,13 @@ PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType2=CompositeDrill
 OutputName2=Composite Drill Drawing
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType3=Drill
 OutputName3=Drill Drawing/Guides
 OutputDocumentPath3=
-OutputVariantName3=
+OutputVariantName3=[No Variations]
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType4=Final
@@ -410,17 +448,17 @@ OutputDefault5=0
 OutputType6=Gerber X2
 OutputName6=Gerber X2 Files
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
 OutputType7=IPC2581
 OutputName7=IPC-2581 Files
 OutputDocumentPath7=
-OutputVariantName7=
+OutputVariantName7=[No Variations]
 OutputDefault7=0
 OutputType8=Mask
 OutputName8=Solder/Paste Mask Prints
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType9=NC Drill
@@ -436,7 +474,7 @@ OutputDefault10=0
 OutputType11=Plane
 OutputName11=Power-Plane Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType12=Test Points
@@ -448,7 +486,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series
+TargetPrinter=DeskJet_3630_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -481,11 +519,29 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=BOM_ReportCompare
+OutputName7=BOM Compare
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Project History
+OutputName9=Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series
+TargetPrinter=DeskJet_3630_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -589,83 +645,11 @@ OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType18=Text Print
-OutputName18=Text Print
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType19=Text Print
-OutputName19=Text Print
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType20=Text Print
-OutputName20=Text Print
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType21=Text Print
-OutputName21=Text Print
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType22=Text Print
-OutputName22=Text Print
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType23=Text Print
-OutputName23=Text Print
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
-PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType24=Text Print
-OutputName24=Text Print
-OutputDocumentPath24=
-OutputVariantName24=
-OutputDefault24=0
-PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType25=Text Print
-OutputName25=Text Print
-OutputDocumentPath25=
-OutputVariantName25=
-OutputDefault25=0
-PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType26=Text Print
-OutputName26=Text Print
-OutputDocumentPath26=
-OutputVariantName26=
-OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType27=Text Print
-OutputName27=Text Print
-OutputDocumentPath27=
-OutputVariantName27=
-OutputDefault27=0
-PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType28=Text Print
-OutputName28=Text Print
-OutputDocumentPath28=
-OutputVariantName28=
-OutputDefault28=0
-PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType29=Text Print
-OutputName29=Text Print
-OutputDocumentPath29=
-OutputVariantName29=
-OutputDefault29=0
-PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series
+TargetPrinter=DeskJet_3630_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -709,7 +693,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series
+TargetPrinter=DeskJet_3630_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -756,21 +740,61 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=MBAExportPARASOLID
-OutputName10=Export PARASOLID
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=MBAExportSTEP
-OutputName11=Export STEP
+OutputType11=AnsysEDB
+OutputName11=Ansys EDB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=HyperLynx
+OutputName12=HyperLynx (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=MBAExportPARASOLID
+OutputName13=Export PARASOLID
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=MBAExportSTEP
+OutputName14=Export STEP
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+OutputType19=Web ReviewOutputName
+OutputName19=Web Review Data
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series
+TargetPrinter=DeskJet_3630_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -898,6 +922,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
@@ -1089,9 +1114,13 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
-MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1159,12 +1188,12 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
