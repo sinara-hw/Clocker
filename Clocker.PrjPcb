@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Std
 
 [Preferences]
 PrefsVaultGUID=
@@ -133,23 +134,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HEURBVPN
 
-[Document6]
-DocumentPath=Schlib1.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WGUDXETI
-
 [ProjectVariant1]
 UniqueID=2E5F090B-8EF9-4E2B-838E-437A85FBD8AF
 Description=Std
@@ -157,6 +141,594 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=DE5FA015-4E59-4D50-8851-3CC8333A289A
+Description=SMA_6dBm
+AllowFabrication=0
+ParameterCount=0
+VariationCount=8
+Variation1=Designator=R22|UniqueId=\GFMUCRXY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0402_120R_1%_0.0625W_100PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Case|VariantValue=0402
+ParamDesignator1=R22
+ParamVariation2=ParameterName=Comment|VariantValue==Value
+ParamDesignator2=R22
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator3=R22
+ParamVariation4=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator4=R22
+ParamVariation5=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator5=R22
+ParamVariation6=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator6=R22
+ParamVariation7=ParameterName=Description|VariantValue=Resistor - 1%
+ParamDesignator7=R22
+ParamVariation8=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator8=R22
+ParamVariation9=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator9=R22
+ParamVariation10=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator10=R22
+ParamVariation11=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator11=R22
+ParamVariation12=ParameterName=Library Reference|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator12=R22
+ParamVariation13=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator13=R22
+ParamVariation14=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator14=R22
+ParamVariation15=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator15=R22
+ParamVariation16=ParameterName=Manufacturer1 Part Number|VariantValue=232270671201L
+ParamDesignator16=R22
+ParamVariation17=ParameterName=Manufacturer Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator17=R22
+ParamVariation18=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator18=R22
+ParamVariation19=ParameterName=Part Description|VariantValue=General Purpose Thick Film Chip Resistor
+ParamDesignator19=R22
+ParamVariation20=ParameterName=Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator20=R22
+ParamVariation21=ParameterName=PCB3D|VariantValue= 
+ParamDesignator21=R22
+ParamVariation22=ParameterName=Pin Count|VariantValue=2
+ParamDesignator22=R22
+ParamVariation23=ParameterName=Pin Info|VariantValue= 
+ParamDesignator23=R22
+ParamVariation24=ParameterName=Power|VariantValue=0.0625W
+ParamDesignator24=R22
+ParamVariation25=ParameterName=PressFit|VariantValue=No
+ParamDesignator25=R22
+ParamVariation26=ParameterName=Sense|VariantValue=No
+ParamDesignator26=R22
+ParamVariation27=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator27=R22
+ParamVariation28=ParameterName=Simulation|VariantValue= 
+ParamDesignator28=R22
+ParamVariation29=ParameterName=SMD|VariantValue=Yes
+ParamDesignator29=R22
+ParamVariation30=ParameterName=Socket|VariantValue=No
+ParamDesignator30=R22
+ParamVariation31=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator31=R22
+ParamVariation32=ParameterName=TC|VariantValue=±100ppm/°C
+ParamDesignator32=R22
+ParamVariation33=ParameterName=Tolerance|VariantValue=±1%
+ParamDesignator33=R22
+ParamVariation34=ParameterName=Value|VariantValue=120
+ParamDesignator34=R22
+Variation2=Designator=R23|UniqueId=\TCKLKQEF|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0402_120R_1%_0.0625W_100PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+ParamVariation35=ParameterName=Case|VariantValue=0402
+ParamDesignator35=R23
+ParamVariation36=ParameterName=Comment|VariantValue==Value
+ParamDesignator36=R23
+ParamVariation37=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator37=R23
+ParamVariation38=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator38=R23
+ParamVariation39=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator39=R23
+ParamVariation40=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator40=R23
+ParamVariation41=ParameterName=Description|VariantValue=Resistor - 1%
+ParamDesignator41=R23
+ParamVariation42=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator42=R23
+ParamVariation43=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator43=R23
+ParamVariation44=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator44=R23
+ParamVariation45=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator45=R23
+ParamVariation46=ParameterName=Library Reference|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator46=R23
+ParamVariation47=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator47=R23
+ParamVariation48=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator48=R23
+ParamVariation49=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator49=R23
+ParamVariation50=ParameterName=Manufacturer1 Part Number|VariantValue=232270671201L
+ParamDesignator50=R23
+ParamVariation51=ParameterName=Manufacturer Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator51=R23
+ParamVariation52=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator52=R23
+ParamVariation53=ParameterName=Part Description|VariantValue=General Purpose Thick Film Chip Resistor
+ParamDesignator53=R23
+ParamVariation54=ParameterName=Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator54=R23
+ParamVariation55=ParameterName=PCB3D|VariantValue= 
+ParamDesignator55=R23
+ParamVariation56=ParameterName=Pin Count|VariantValue=2
+ParamDesignator56=R23
+ParamVariation57=ParameterName=Pin Info|VariantValue= 
+ParamDesignator57=R23
+ParamVariation58=ParameterName=Power|VariantValue=0.0625W
+ParamDesignator58=R23
+ParamVariation59=ParameterName=PressFit|VariantValue=No
+ParamDesignator59=R23
+ParamVariation60=ParameterName=Sense|VariantValue=No
+ParamDesignator60=R23
+ParamVariation61=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator61=R23
+ParamVariation62=ParameterName=Simulation|VariantValue= 
+ParamDesignator62=R23
+ParamVariation63=ParameterName=SMD|VariantValue=Yes
+ParamDesignator63=R23
+ParamVariation64=ParameterName=Socket|VariantValue=No
+ParamDesignator64=R23
+ParamVariation65=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator65=R23
+ParamVariation66=ParameterName=TC|VariantValue=±100ppm/°C
+ParamDesignator66=R23
+ParamVariation67=ParameterName=Tolerance|VariantValue=±1%
+ParamDesignator67=R23
+ParamVariation68=ParameterName=Value|VariantValue=120
+ParamDesignator68=R23
+Variation3=Designator=R24|UniqueId=\CYOLDNVA|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0402_120R_1%_0.0625W_100PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+ParamVariation69=ParameterName=Case|VariantValue=0402
+ParamDesignator69=R24
+ParamVariation70=ParameterName=Comment|VariantValue==Value
+ParamDesignator70=R24
+ParamVariation71=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator71=R24
+ParamVariation72=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator72=R24
+ParamVariation73=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator73=R24
+ParamVariation74=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator74=R24
+ParamVariation75=ParameterName=Description|VariantValue=Resistor - 1%
+ParamDesignator75=R24
+ParamVariation76=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator76=R24
+ParamVariation77=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator77=R24
+ParamVariation78=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator78=R24
+ParamVariation79=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator79=R24
+ParamVariation80=ParameterName=Library Reference|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator80=R24
+ParamVariation81=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator81=R24
+ParamVariation82=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator82=R24
+ParamVariation83=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator83=R24
+ParamVariation84=ParameterName=Manufacturer1 Part Number|VariantValue=232270671201L
+ParamDesignator84=R24
+ParamVariation85=ParameterName=Manufacturer Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator85=R24
+ParamVariation86=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator86=R24
+ParamVariation87=ParameterName=Part Description|VariantValue=General Purpose Thick Film Chip Resistor
+ParamDesignator87=R24
+ParamVariation88=ParameterName=Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator88=R24
+ParamVariation89=ParameterName=PCB3D|VariantValue= 
+ParamDesignator89=R24
+ParamVariation90=ParameterName=Pin Count|VariantValue=2
+ParamDesignator90=R24
+ParamVariation91=ParameterName=Pin Info|VariantValue= 
+ParamDesignator91=R24
+ParamVariation92=ParameterName=Power|VariantValue=0.0625W
+ParamDesignator92=R24
+ParamVariation93=ParameterName=PressFit|VariantValue=No
+ParamDesignator93=R24
+ParamVariation94=ParameterName=Sense|VariantValue=No
+ParamDesignator94=R24
+ParamVariation95=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator95=R24
+ParamVariation96=ParameterName=Simulation|VariantValue= 
+ParamDesignator96=R24
+ParamVariation97=ParameterName=SMD|VariantValue=Yes
+ParamDesignator97=R24
+ParamVariation98=ParameterName=Socket|VariantValue=No
+ParamDesignator98=R24
+ParamVariation99=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator99=R24
+ParamVariation100=ParameterName=TC|VariantValue=±100ppm/°C
+ParamDesignator100=R24
+ParamVariation101=ParameterName=Tolerance|VariantValue=±1%
+ParamDesignator101=R24
+ParamVariation102=ParameterName=Value|VariantValue=120
+ParamDesignator102=R24
+Variation4=Designator=R25|UniqueId=\XJUYGIPF|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0402_120R_1%_0.0625W_100PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+ParamVariation103=ParameterName=Case|VariantValue=0402
+ParamDesignator103=R25
+ParamVariation104=ParameterName=Comment|VariantValue==Value
+ParamDesignator104=R25
+ParamVariation105=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator105=R25
+ParamVariation106=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator106=R25
+ParamVariation107=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator107=R25
+ParamVariation108=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator108=R25
+ParamVariation109=ParameterName=Description|VariantValue=Resistor - 1%
+ParamDesignator109=R25
+ParamVariation110=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator110=R25
+ParamVariation111=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator111=R25
+ParamVariation112=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator112=R25
+ParamVariation113=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator113=R25
+ParamVariation114=ParameterName=Library Reference|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator114=R25
+ParamVariation115=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator115=R25
+ParamVariation116=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator116=R25
+ParamVariation117=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator117=R25
+ParamVariation118=ParameterName=Manufacturer1 Part Number|VariantValue=232270671201L
+ParamDesignator118=R25
+ParamVariation119=ParameterName=Manufacturer Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator119=R25
+ParamVariation120=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator120=R25
+ParamVariation121=ParameterName=Part Description|VariantValue=General Purpose Thick Film Chip Resistor
+ParamDesignator121=R25
+ParamVariation122=ParameterName=Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator122=R25
+ParamVariation123=ParameterName=PCB3D|VariantValue= 
+ParamDesignator123=R25
+ParamVariation124=ParameterName=Pin Count|VariantValue=2
+ParamDesignator124=R25
+ParamVariation125=ParameterName=Pin Info|VariantValue= 
+ParamDesignator125=R25
+ParamVariation126=ParameterName=Power|VariantValue=0.0625W
+ParamDesignator126=R25
+ParamVariation127=ParameterName=PressFit|VariantValue=No
+ParamDesignator127=R25
+ParamVariation128=ParameterName=Sense|VariantValue=No
+ParamDesignator128=R25
+ParamVariation129=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator129=R25
+ParamVariation130=ParameterName=Simulation|VariantValue= 
+ParamDesignator130=R25
+ParamVariation131=ParameterName=SMD|VariantValue=Yes
+ParamDesignator131=R25
+ParamVariation132=ParameterName=Socket|VariantValue=No
+ParamDesignator132=R25
+ParamVariation133=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator133=R25
+ParamVariation134=ParameterName=TC|VariantValue=±100ppm/°C
+ParamDesignator134=R25
+ParamVariation135=ParameterName=Tolerance|VariantValue=±1%
+ParamDesignator135=R25
+ParamVariation136=ParameterName=Value|VariantValue=120
+ParamDesignator136=R25
+Variation5=Designator=R27|UniqueId=\KEGUTIXJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0402_120R_1%_0.0625W_100PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+ParamVariation137=ParameterName=Case|VariantValue=0402
+ParamDesignator137=R27
+ParamVariation138=ParameterName=Comment|VariantValue==Value
+ParamDesignator138=R27
+ParamVariation139=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator139=R27
+ParamVariation140=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator140=R27
+ParamVariation141=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator141=R27
+ParamVariation142=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator142=R27
+ParamVariation143=ParameterName=Description|VariantValue=Resistor - 1%
+ParamDesignator143=R27
+ParamVariation144=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator144=R27
+ParamVariation145=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator145=R27
+ParamVariation146=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator146=R27
+ParamVariation147=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator147=R27
+ParamVariation148=ParameterName=Library Reference|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator148=R27
+ParamVariation149=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator149=R27
+ParamVariation150=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator150=R27
+ParamVariation151=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator151=R27
+ParamVariation152=ParameterName=Manufacturer1 Part Number|VariantValue=232270671201L
+ParamDesignator152=R27
+ParamVariation153=ParameterName=Manufacturer Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator153=R27
+ParamVariation154=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator154=R27
+ParamVariation155=ParameterName=Part Description|VariantValue=General Purpose Thick Film Chip Resistor
+ParamDesignator155=R27
+ParamVariation156=ParameterName=Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator156=R27
+ParamVariation157=ParameterName=PCB3D|VariantValue= 
+ParamDesignator157=R27
+ParamVariation158=ParameterName=Pin Count|VariantValue=2
+ParamDesignator158=R27
+ParamVariation159=ParameterName=Pin Info|VariantValue= 
+ParamDesignator159=R27
+ParamVariation160=ParameterName=Power|VariantValue=0.0625W
+ParamDesignator160=R27
+ParamVariation161=ParameterName=PressFit|VariantValue=No
+ParamDesignator161=R27
+ParamVariation162=ParameterName=Sense|VariantValue=No
+ParamDesignator162=R27
+ParamVariation163=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator163=R27
+ParamVariation164=ParameterName=Simulation|VariantValue= 
+ParamDesignator164=R27
+ParamVariation165=ParameterName=SMD|VariantValue=Yes
+ParamDesignator165=R27
+ParamVariation166=ParameterName=Socket|VariantValue=No
+ParamDesignator166=R27
+ParamVariation167=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator167=R27
+ParamVariation168=ParameterName=TC|VariantValue=±100ppm/°C
+ParamDesignator168=R27
+ParamVariation169=ParameterName=Tolerance|VariantValue=±1%
+ParamDesignator169=R27
+ParamVariation170=ParameterName=Value|VariantValue=120
+ParamDesignator170=R27
+Variation6=Designator=R28|UniqueId=\EYDOCFIG|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0402_120R_1%_0.0625W_100PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+ParamVariation171=ParameterName=Case|VariantValue=0402
+ParamDesignator171=R28
+ParamVariation172=ParameterName=Comment|VariantValue==Value
+ParamDesignator172=R28
+ParamVariation173=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator173=R28
+ParamVariation174=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator174=R28
+ParamVariation175=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator175=R28
+ParamVariation176=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator176=R28
+ParamVariation177=ParameterName=Description|VariantValue=Resistor - 1%
+ParamDesignator177=R28
+ParamVariation178=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator178=R28
+ParamVariation179=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator179=R28
+ParamVariation180=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator180=R28
+ParamVariation181=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator181=R28
+ParamVariation182=ParameterName=Library Reference|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator182=R28
+ParamVariation183=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator183=R28
+ParamVariation184=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator184=R28
+ParamVariation185=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator185=R28
+ParamVariation186=ParameterName=Manufacturer1 Part Number|VariantValue=232270671201L
+ParamDesignator186=R28
+ParamVariation187=ParameterName=Manufacturer Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator187=R28
+ParamVariation188=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator188=R28
+ParamVariation189=ParameterName=Part Description|VariantValue=General Purpose Thick Film Chip Resistor
+ParamDesignator189=R28
+ParamVariation190=ParameterName=Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator190=R28
+ParamVariation191=ParameterName=PCB3D|VariantValue= 
+ParamDesignator191=R28
+ParamVariation192=ParameterName=Pin Count|VariantValue=2
+ParamDesignator192=R28
+ParamVariation193=ParameterName=Pin Info|VariantValue= 
+ParamDesignator193=R28
+ParamVariation194=ParameterName=Power|VariantValue=0.0625W
+ParamDesignator194=R28
+ParamVariation195=ParameterName=PressFit|VariantValue=No
+ParamDesignator195=R28
+ParamVariation196=ParameterName=Sense|VariantValue=No
+ParamDesignator196=R28
+ParamVariation197=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator197=R28
+ParamVariation198=ParameterName=Simulation|VariantValue= 
+ParamDesignator198=R28
+ParamVariation199=ParameterName=SMD|VariantValue=Yes
+ParamDesignator199=R28
+ParamVariation200=ParameterName=Socket|VariantValue=No
+ParamDesignator200=R28
+ParamVariation201=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator201=R28
+ParamVariation202=ParameterName=TC|VariantValue=±100ppm/°C
+ParamDesignator202=R28
+ParamVariation203=ParameterName=Tolerance|VariantValue=±1%
+ParamDesignator203=R28
+ParamVariation204=ParameterName=Value|VariantValue=120
+ParamDesignator204=R28
+Variation7=Designator=R29|UniqueId=\EOBEXTOG|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0402_120R_1%_0.0625W_100PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+ParamVariation205=ParameterName=Case|VariantValue=0402
+ParamDesignator205=R29
+ParamVariation206=ParameterName=Comment|VariantValue==Value
+ParamDesignator206=R29
+ParamVariation207=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator207=R29
+ParamVariation208=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator208=R29
+ParamVariation209=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator209=R29
+ParamVariation210=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator210=R29
+ParamVariation211=ParameterName=Description|VariantValue=Resistor - 1%
+ParamDesignator211=R29
+ParamVariation212=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator212=R29
+ParamVariation213=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator213=R29
+ParamVariation214=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator214=R29
+ParamVariation215=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator215=R29
+ParamVariation216=ParameterName=Library Reference|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator216=R29
+ParamVariation217=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator217=R29
+ParamVariation218=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator218=R29
+ParamVariation219=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator219=R29
+ParamVariation220=ParameterName=Manufacturer1 Part Number|VariantValue=232270671201L
+ParamDesignator220=R29
+ParamVariation221=ParameterName=Manufacturer Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator221=R29
+ParamVariation222=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator222=R29
+ParamVariation223=ParameterName=Part Description|VariantValue=General Purpose Thick Film Chip Resistor
+ParamDesignator223=R29
+ParamVariation224=ParameterName=Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator224=R29
+ParamVariation225=ParameterName=PCB3D|VariantValue= 
+ParamDesignator225=R29
+ParamVariation226=ParameterName=Pin Count|VariantValue=2
+ParamDesignator226=R29
+ParamVariation227=ParameterName=Pin Info|VariantValue= 
+ParamDesignator227=R29
+ParamVariation228=ParameterName=Power|VariantValue=0.0625W
+ParamDesignator228=R29
+ParamVariation229=ParameterName=PressFit|VariantValue=No
+ParamDesignator229=R29
+ParamVariation230=ParameterName=Sense|VariantValue=No
+ParamDesignator230=R29
+ParamVariation231=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator231=R29
+ParamVariation232=ParameterName=Simulation|VariantValue= 
+ParamDesignator232=R29
+ParamVariation233=ParameterName=SMD|VariantValue=Yes
+ParamDesignator233=R29
+ParamVariation234=ParameterName=Socket|VariantValue=No
+ParamDesignator234=R29
+ParamVariation235=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator235=R29
+ParamVariation236=ParameterName=TC|VariantValue=±100ppm/°C
+ParamDesignator236=R29
+ParamVariation237=ParameterName=Tolerance|VariantValue=±1%
+ParamDesignator237=R29
+ParamVariation238=ParameterName=Value|VariantValue=120
+ParamDesignator238=R29
+Variation8=Designator=R31|UniqueId=\JOTJWYTK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0402_120R_1%_0.0625W_100PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+ParamVariation239=ParameterName=Case|VariantValue=0402
+ParamDesignator239=R31
+ParamVariation240=ParameterName=Comment|VariantValue==Value
+ParamDesignator240=R31
+ParamVariation241=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator241=R31
+ParamVariation242=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator242=R31
+ParamVariation243=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator243=R31
+ParamVariation244=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator244=R31
+ParamVariation245=ParameterName=Description|VariantValue=Resistor - 1%
+ParamDesignator245=R31
+ParamVariation246=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator246=R31
+ParamVariation247=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator247=R31
+ParamVariation248=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator248=R31
+ParamVariation249=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator249=R31
+ParamVariation250=ParameterName=Library Reference|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator250=R31
+ParamVariation251=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator251=R31
+ParamVariation252=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator252=R31
+ParamVariation253=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator253=R31
+ParamVariation254=ParameterName=Manufacturer1 Part Number|VariantValue=232270671201L
+ParamDesignator254=R31
+ParamVariation255=ParameterName=Manufacturer Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator255=R31
+ParamVariation256=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator256=R31
+ParamVariation257=ParameterName=Part Description|VariantValue=General Purpose Thick Film Chip Resistor
+ParamDesignator257=R31
+ParamVariation258=ParameterName=Part Number|VariantValue=R0402_120R_1%_0.0625W_100PPM
+ParamDesignator258=R31
+ParamVariation259=ParameterName=PCB3D|VariantValue= 
+ParamDesignator259=R31
+ParamVariation260=ParameterName=Pin Count|VariantValue=2
+ParamDesignator260=R31
+ParamVariation261=ParameterName=Pin Info|VariantValue= 
+ParamDesignator261=R31
+ParamVariation262=ParameterName=Power|VariantValue=0.0625W
+ParamDesignator262=R31
+ParamVariation263=ParameterName=PressFit|VariantValue=No
+ParamDesignator263=R31
+ParamVariation264=ParameterName=Sense|VariantValue=No
+ParamDesignator264=R31
+ParamVariation265=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator265=R31
+ParamVariation266=ParameterName=Simulation|VariantValue= 
+ParamDesignator266=R31
+ParamVariation267=ParameterName=SMD|VariantValue=Yes
+ParamDesignator267=R31
+ParamVariation268=ParameterName=Socket|VariantValue=No
+ParamDesignator268=R31
+ParamVariation269=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator269=R31
+ParamVariation270=ParameterName=TC|VariantValue=±100ppm/°C
+ParamDesignator270=R31
+ParamVariation271=ParameterName=Tolerance|VariantValue=±1%
+ParamDesignator271=R31
+ParamVariation272=ParameterName=Value|VariantValue=120
+ParamDesignator272=R31
+ParamVariationCount=272
+
+[GeneratedDocument1]
+DocumentPath=C:\Users\PAWEK~1\AppData\Local\Temp\Qjz2F64.xls
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=C:\Users\PAWEK~1\AppData\Local\Temp\Qjz40CB.xls
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=C:\Users\PAWEK~1\AppData\Local\Temp\Qjz378E.xls
+DItemRevisionGUID=
+
+[Parameter1]
+Name=Project
+Value=Sinara
+
+[Parameter2]
+Name=Title
+Value=Clocker
+
+[Parameter3]
+Name=Title2
+Value=Low noise clock buffer
+
+[Parameter4]
+Name=Version
+Value=v1.2
 
 [Configuration1]
 Name=Default Configuration
@@ -174,7 +746,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=DeskJet_3630_series
+TargetPrinter=Canon_MG3600_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -271,27 +843,17 @@ OutputName19=WireList Netlist
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=XSpiceNetlist
-OutputName20=Mixed Sim Netlist
+OutputType20=PADSNetlist
+OutputName20=PADS ASCII Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=PADSNetlist
-OutputName21=PADS ASCII Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=DeskJet_3630_series
+TargetPrinter=Canon_MG3600_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -392,7 +954,7 @@ PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=DeskJet_3630_series
+TargetPrinter=Canon_MG3600_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -414,7 +976,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=DeskJet_3630_series
+TargetPrinter=Canon_MG3600_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -486,7 +1048,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=DeskJet_3630_series
+TargetPrinter=Canon_MG3600_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -541,7 +1103,7 @@ PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=DeskJet_3630_series
+TargetPrinter=Canon_MG3600_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -649,7 +1211,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=DeskJet_3630_series
+TargetPrinter=Canon_MG3600_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -693,7 +1255,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=DeskJet_3630_series
+TargetPrinter=Canon_MG3600_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -740,61 +1302,26 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=AnsysEDB
-OutputName11=Ansys EDB
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=HyperLynx
-OutputName12=HyperLynx (AutoPCB)
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=MBAExportPARASOLID
-OutputName13=Export PARASOLID
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=MBAExportSTEP
-OutputName14=Export STEP
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-OutputType19=Web ReviewOutputName
-OutputName19=Web Review Data
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=DeskJet_3630_series
+TargetPrinter=Canon_MG3600_series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
